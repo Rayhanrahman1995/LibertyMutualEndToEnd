@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.test.LogInTest
+Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.058 s - in com.test.LogInTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.65 s - in TestSuite

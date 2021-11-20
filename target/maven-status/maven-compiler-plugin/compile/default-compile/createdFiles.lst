@@ -1,1 +1,11 @@
+com/data/PersonalInfo.class
+com/commonMethods/CommonMethods.class
+com/pages/AutoQuote.class
+com/pages/LogIn.class
+com/pages/LogInByDataProvider.class
+com/pages/LogInFromExcel.class
+com/utils/ExcelReader.class
 com/base/Base.class
+com/data/AutoQuoteInfo.class
+com/utils/ReadProperties.class
+com/pages/AutoQuote1.class

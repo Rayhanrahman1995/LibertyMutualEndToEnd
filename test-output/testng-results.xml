@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-20T05:08:08Z" name="Default suite" finished-at="2021-11-20T05:08:18Z" duration-ms="9902">
+    <groups>
+    </groups>
+    <test started-at="2021-11-20T05:08:08Z" name="Default test" finished-at="2021-11-20T05:08:18Z" duration-ms="9902">
+      <class name="com.test.HomePageLogoTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:08Z" name="setUpDriver" finished-at="2021-11-20T05:08:13Z" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:13Z" name="initialization" finished-at="2021-11-20T05:08:13Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:13Z" name="homePageLogoTest" finished-at="2021-11-20T05:08:17Z" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:17Z" name="tearDown" finished-at="2021-11-20T05:08:18Z" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.HomePageLogoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

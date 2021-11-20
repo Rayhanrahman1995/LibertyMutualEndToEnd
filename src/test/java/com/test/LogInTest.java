@@ -38,7 +38,6 @@ public class LogInTest extends Base {
 		Object[][] obj = reader.getData();
 		return obj;
 	}
-
 	@BeforeMethod
 	public void pageInitialize() {
 		commonMethods = new CommonMethods();
@@ -47,13 +46,13 @@ public class LogInTest extends Base {
 		logInFromExcel = new LogInFromExcel(driver);
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void LibertyMutualLogIn() {
 		logIn.logInSteps(commonMethods, ReadProperties.instanceOfProp().getUserName(),
 				ReadProperties.instanceOfProp().getPassword());
 	}
 
-	@Test(priority = 2, dataProvider = "MyInfo", enabled = true)
+	@Test(priority = 2, dataProvider = "MyInfo", enabled = false)
 	public void libertyMutualLogInByDataProvider(PersonalInfo personalInfo) {
 		logInByDataProvider.logInByDataProviderSteps(commonMethods, personalInfo);
 	}

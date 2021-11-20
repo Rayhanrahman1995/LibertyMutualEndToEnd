@@ -38,6 +38,7 @@ public class ExcelReader {
 	public Object[][] getData() {
 		Object[][] info = {};
 		int rows = sheet.getLastRowNum();
+		System.out.println(rows);
 		int cells = sheet.getRow(0).getLastCellNum();
 		info = new Object[rows][cells];
 		DataFormatter dataFormatter = new DataFormatter();
@@ -45,9 +46,13 @@ public class ExcelReader {
 		for (int i = 0; i < rows; i++) {
 			Row row = sheet.getRow(i + 1);
 			for (int j = 0; j < cells; j++) {
+				try {
 				Cell cell = row.getCell(j);
-				String value = dataFormatter.formatCellValue(cell);
+				Object value = dataFormatter.formatCellValue(cell);
 				info[i][j] = value;
+				}catch (NullPointerException e) {
+					
+				}
 			}
 		}
 		return info;

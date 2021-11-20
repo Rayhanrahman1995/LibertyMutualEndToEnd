@@ -1,12 +1,13 @@
 package com.commonMethods;
 
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import com.base.Base;
 
 public class CommonMethods {
@@ -54,4 +55,13 @@ public class CommonMethods {
 		Actions actions = new Actions(Base.driver);
 		actions.moveToElement(element).click().perform();
 	}
+
+	public String getLibertyMutualTitle(WebDriver driver) {
+		return driver.getTitle();
+	}
+
+	public void isElementDisplayable(WebElement element) {
+		element.isDisplayed();
+	}
+		
 }
