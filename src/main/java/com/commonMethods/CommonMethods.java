@@ -60,8 +60,14 @@ public class CommonMethods {
 		return driver.getTitle();
 	}
 
-	public void isElementDisplayable(WebElement element) {
-		element.isDisplayed();
+	public boolean isElementDisplayable(WebElement element) {
+	return	element.isDisplayed();
+	}
+	public boolean isElementSelectable(WebElement element) {
+	return	element.isSelected();
+	}
+	public boolean isElementEnable(WebElement element) {
+	return	element.isEnabled();
 	}
 		
 }

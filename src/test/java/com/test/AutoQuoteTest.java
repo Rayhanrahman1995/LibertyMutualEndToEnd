@@ -55,22 +55,22 @@ public class AutoQuoteTest extends Base{
 		autoQuote2=new AutoQuote2(driver);
 		autoQuoteFromExcel=new AutoQuoteFromExcel(driver);
 	}
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void autoQuoteTest()  {
 		autoQuote.autoQuoteSteps(cm);
 	}
-	@Test(priority = 2, enabled = false, dataProvider = "AutoQuote1")
+	@Test(priority = 2, enabled = true, dataProvider = "AutoQuote1")
 	public void autoQuoteInfoTest(AutoQuoteInfo autoQuoteInfo) {
 		autoQuote1.autoQuoteSteps1(cm, autoQuoteInfo);
 	}
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void autoQuoteInfo2Test() {
 		autoQuote2.autoQuoteSteps2(cm, 
 				AutoQuoteProperty.getInstanceOfAutoQuote2Prop().getZipCode(),
 				AutoQuoteProperty.getInstanceOfAutoQuote2Prop().getStAddress(),
 				AutoQuoteProperty.getInstanceOfAutoQuote2Prop().getApt());
 	}
-	@Test(priority = 4, dataProvider = "dataAutoQuote", enabled = false)
+	@Test(priority = 4, dataProvider = "dataAutoQuote", enabled = true)
 	public void autoQuoteDataProviderTest(int zipCode, String stAddress,String apt) {
 		autoQuoteFromExcel.autoQuoteExcelSteps(cm, zipCode, stAddress, apt);
 	}

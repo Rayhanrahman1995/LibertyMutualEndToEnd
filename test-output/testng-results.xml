@@ -1,29 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-20T05:08:08Z" name="Default suite" finished-at="2021-11-20T05:08:18Z" duration-ms="9902">
+  <suite name="Default suite" duration-ms="33136" started-at="2021-12-11T13:17:22Z" finished-at="2021-12-11T13:17:55Z">
     <groups>
     </groups>
-    <test started-at="2021-11-20T05:08:08Z" name="Default test" finished-at="2021-11-20T05:08:18Z" duration-ms="9902">
-      <class name="com.test.HomePageLogoTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:08Z" name="setUpDriver" finished-at="2021-11-20T05:08:13Z" duration-ms="5603" status="PASS">
+    <test name="Default test" duration-ms="33136" started-at="2021-12-11T13:17:22Z" finished-at="2021-12-11T13:17:55Z">
+      <class name="com.test.LogInTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.test.LogInTest@56528192]" name="setUpDriver" is-config="true" duration-ms="6278" started-at="2021-12-11T13:17:22Z" finished-at="2021-12-11T13:17:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:13Z" name="initialization" finished-at="2021-11-20T05:08:13Z" duration-ms="20" status="PASS">
+        <test-method status="PASS" signature="pageInitialize()[pri:0, instance:com.test.LogInTest@56528192]" name="pageInitialize" is-config="true" duration-ms="22" started-at="2021-12-11T13:17:28Z" finished-at="2021-12-11T13:17:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="homePageLogoTest()[pri:1, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:13Z" name="homePageLogoTest" finished-at="2021-11-20T05:08:17Z" duration-ms="3850" status="PASS">
+        </test-method> <!-- pageInitialize -->
+        <test-method status="PASS" signature="LibertyMutualLogIn()[pri:1, instance:com.test.LogInTest@56528192]" name="LibertyMutualLogIn" duration-ms="4037" started-at="2021-12-11T13:17:28Z" finished-at="2021-12-11T13:17:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.HomePageLogoTest@436c81a3]" started-at="2021-11-20T05:08:17Z" name="tearDown" finished-at="2021-11-20T05:08:18Z" duration-ms="403" status="PASS">
+        </test-method> <!-- LibertyMutualLogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LogInTest@56528192]" name="tearDown" is-config="true" duration-ms="91" started-at="2021-12-11T13:17:32Z" finished-at="2021-12-11T13:17:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.HomePageLogoTest -->
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.test.LogInTest@56528192]" name="setUpDriver" is-config="true" duration-ms="9903" started-at="2021-12-11T13:17:32Z" finished-at="2021-12-11T13:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="pageInitialize()[pri:0, instance:com.test.LogInTest@56528192]" name="pageInitialize" is-config="true" duration-ms="2" started-at="2021-12-11T13:17:42Z" finished-at="2021-12-11T13:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageInitialize -->
+        <test-method status="PASS" signature="libertyMutualLogInByDataProvider(com.data.PersonalInfo)[pri:2, instance:com.test.LogInTest@56528192]" name="libertyMutualLogInByDataProvider" duration-ms="2751" started-at="2021-12-11T13:17:42Z" data-provider="MyInfo" finished-at="2021-12-11T13:17:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.data.PersonalInfo@66629f63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libertyMutualLogInByDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LogInTest@56528192]" name="tearDown" is-config="true" duration-ms="628" started-at="2021-12-11T13:17:45Z" finished-at="2021-12-11T13:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.test.LogInTest@56528192]" name="setUpDriver" is-config="true" duration-ms="5319" started-at="2021-12-11T13:17:46Z" finished-at="2021-12-11T13:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="pageInitialize()[pri:0, instance:com.test.LogInTest@56528192]" name="pageInitialize" is-config="true" duration-ms="1" started-at="2021-12-11T13:17:51Z" finished-at="2021-12-11T13:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageInitialize -->
+        <test-method status="PASS" signature="libertyMutualLogInFromExcel(java.lang.String, java.lang.String)[pri:3, instance:com.test.LogInTest@56528192]" name="libertyMutualLogInFromExcel" duration-ms="3061" started-at="2021-12-11T13:17:51Z" data-provider="Excel" finished-at="2021-12-11T13:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakibalhasan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75sS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libertyMutualLogInFromExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LogInTest@56528192]" name="tearDown" is-config="true" duration-ms="420" started-at="2021-12-11T13:17:55Z" finished-at="2021-12-11T13:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LogInTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
